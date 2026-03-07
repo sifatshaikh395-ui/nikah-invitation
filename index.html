@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nikah Invitation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Background Music -->
+<audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- PAGE 1 -->
+<section class="page envelope-section">
+    <div class="envelope" id="envelope">
+        <img src="page1.png" class="envelope-img">
+        <div class="flap" id="flap"></div>
+    </div>
+</section>
+
+<!-- PAGE 2 -->
+<section class="page hidden" id="page2">
+    <img src="page2.png" class="full-img">
+</section>
+
+<!-- PAGE 3 -->
+<section class="page">
+    <img src="page3.png" class="full-img">
+</section>
+
+<!-- PAGE 4 Scratch -->
+<section class="page scratch-page">
+    <div class="scratch-container">
+        <img src="page4.png" class="page-img">
+        <canvas class="scratch-circle" width="180" height="180"></canvas>
+        <canvas class="scratch-circle" width="180" height="180"></canvas>
+        <canvas class="scratch-circle "width="180" height="180"></canvas>
+    </div>
+</section>
+
+<!-- PAGE 5 -->
+<section class="page reveal-page">
+    <img src="page5.png" class="full-img">
+</section>
+
+<!-- PAGE 6 -->
+<section class="page">
+    <img src="page6.png" class="full-img">
+</section>
+
+<!-- PAGE 7 Venue -->
+<section class="page venue-page">
+    <div class="venue-container">
+        <img src="page7.png" class="full-img">
+
+        <!-- Invisible Direction Button -->
+        <a href="https://maps.app.goo.gl/Q4o5hvxkXmtAb7qo6?g_st=am"
+           target="_blank"
+           class="direction-link">
+        </a>
+    </div>
+</section>
+
+<!-- PAGE 8 RSVP -->
+<section class="page rsvp-page">
+    <div class="rsvp-container">
+        <img src="page8.png" class="full-img">
+        
+
+        <!-- Call Number 1 -->
+        <a href="tel:+919373231670" class="call-icon call1">📞</a>
+
+        <!-- Call Number 2 -->
+        <a href="tel:+919607594832" class="call-icon call2">📞</a>
+       
+
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
